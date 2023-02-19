@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, TextInput} from 'react-native';
+import { StyleSheet, TextInput} from 'react-native';
 import {Text, View} from 'react-native';
 
 const Form = (props) => {
@@ -15,11 +15,11 @@ const Form = (props) => {
         placeholder={props.placeHolder}
         numberOfLines={4}
       />
-       <TextInput
+       {/* <TextInput
         multiline
         style={styles.input}
         numberOfLines={4}
-      />
+      /> */}
     </>
   );
 };

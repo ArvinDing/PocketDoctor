@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { StyleSheet  } from 'react-native';
-import {Calendar, CalendarList, Agenda} from 'react-native-calendars';
+import React from 'react';
+import {Calendar} from 'react-native-calendars';
 
 export default function CalendarPage({day_clicked}) {
   return (
@@ -14,7 +13,6 @@ export default function CalendarPage({day_clicked}) {
           width:400
         }}
         // Specify theme properties to override specific styles for calendar parts. Default = {}
-        
       /> 
   );
 }
